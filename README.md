@@ -34,10 +34,10 @@ Atos Digital Academy is designed to:
 | Layer       | Technology                               |
 |-------------|------------------------------------------|
 | Frontend    | React.js, TailwindCSS                    |
-| Backend     | Node.js (Express) or Django/FastAPI      |
-| Database    | PostgreSQL or MongoDB                    |
-| Authentication  | Firebase Auth or OAuth2               |
-| Deployment  | Docker, GitHub Actions, Vercel/Render      |
+| Backend     | Node.js (Express)                        |
+| Database    | MongoDB                                  |
+| Authentication  | Firebase Auth or OAuth2              |
+| Deployment  | Docker, GitHub Actions, Vercel           |
 
 ## Installation & Setup
 
@@ -81,6 +81,7 @@ Open your browser and navigate to `http://localhost:3000` (or the relevant port)
 * Schedule Mentorship: Request or offer mentorship sessions using the in-app scheduling tool.
 * Engage in Forums: Participate in discussions, ask questions, and share insights with the community.
 * Showcase Projects: Upload and review projects in the dedicated project showcase section.
+* Career Outcomes: ensure continuous monitoring of the learner’s progress — from registration, certificate achievement, to successful career placement.
 
 ## Contribution Guidelines
 We welcome community contributions! Please review our  [CONTRIBUTING.md](CONTRIBUTING.md)for detailed information on how to get involved, submit pull requests, and report issues.
@@ -92,7 +93,7 @@ We are committed to fostering an open and welcoming environment. Please see our 
 This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
 
 ## Contact & Support
-Project Owner: [**YAO Kossia Bénédicte (Cypher1305)**]
+Project Owner: [**YAO Kossia Bénédicte (Cypher1305)**](https://www.linkedin.com/in/Cypher1305)
 
 * GitHub Issues: Use the `Issues page` to report bugs or request new features.
 
