@@ -1,6 +1,6 @@
 # Contributing to Atos Digital Academy
 
-First off, thank you for considering contributing to **Atos Digital Academy**! We believe in building a strong, inclusive, and collaborative learning platform — and we’re glad to have your support.
+First off, thank you for considering contributing to **Atos Digital Academy**! We believe in building a strong, inclusive, and collaborative learning platform and we’re glad to have your support.
 
 This document will guide you through the steps to contribute successfully.
 
@@ -15,6 +15,47 @@ You can help improve this project in several ways:
 - **Code Contributions:** Fix bugs, refactor code, or add new features
 - **Testing:** Help write or improve test cases
 
+---
+
+## How It Work?
+
+- **Tasks/Contributions are created as issues**
+- Each Contributor can **assign or receive an issue**
+- A branch is **created from `develop`** for each issue (Always from develop branch)
+- Commit messages must reference the issue ID and feature name
+- A **pull request** (PR) is made to `develop`
+- 1 branch = 1 feature = 1 PR
+
+### Main branches
+
+| Branche | Usage |
+|---------|-------|
+| `main` | Stable version, ready for production |
+| `develop` | Development base (all functionalities converge here) |
+
+
+### Branch nomenclature
+
+```bash
+Type/XX/#ID-feature-name-in-kebab-case
+```
+| Type        | When to use it                      |
+| ----------- | ----------------------------------- |
+| `Docs/`     | Documentation related to the project|
+| `Feature/`  | New feature                         |
+| `Hotfix/`   | Bug fix                             |
+| `Refactor/` | Code cleanup or reorganization      |
+
+- XX = contributor's initials
+- #ID = GitHub issue id
+
+Examples :
+
+    Feature/ST/#12-add-register-form
+
+    Hotfix/KY/#16-fix-bug-scroll
+
+    Docs/GY/#20-user-guide
 ---
 
 ## Getting Started
@@ -32,7 +73,7 @@ Follow the steps in our [README.md](README.md) to install dependencies and run t
 
 4. Create a New Branch
 ```bash
-git checkout -b feature/your-feature-name
+git checkout -b Type/XX/#ID-your-feature-name-in-kebab-case
 ```
 5. Make Your Changes
 * Write clean, readable, and well-documented code
@@ -41,11 +82,11 @@ git checkout -b feature/your-feature-name
 6. Commit Your Changes
 ```bash
 git add .
-git commit -m "feat: add feature name or fix: fix bug name"
+git commit -m "#ID feat: add-feature-name-in-kebab-case or #ID fix: fix-bug-name-in-kebab-case"
 ```
 7. Push to Your Fork
 ```bash
-git push origin feature/your-feature-name
+git push origin Type/XX/#ID-your-feature-name-in-kebab-case
 ```
 8. Create a Pull Request
 Go to the original repo and click Compare & pull request. Fill in the PR template with details and submit.
@@ -64,7 +105,7 @@ Go to the original repo and click Compare & pull request. Fill in the PR templat
 * Provide as much context and detail as possible (screenshots, steps to reproduce, logs, etc.)
 ---
 ## Code of Conduct
->By participating in this project, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Let’s create a safe and inclusive environment for everyone.
+>By participating in this project, you agree to follow our [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md). Let’s create a safe and inclusive environment for everyone.
 ---
 ## Thank You
 >Your contributions help make Atos Digital Academy better for everyone.
