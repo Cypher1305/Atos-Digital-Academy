@@ -37,6 +37,9 @@ To develop a **community-driven educational platform** initiated by the ATOS lea
 - Badges, points, and achievements for engagement
 - Leaderboards for motivation
 
+### 7. Career Outcomes
+- ensure continuous monitoring of the learner’s progress from registration, certificate achievement, to successful career placement.
+
 ---
 
 ## Tech Stack (Suggested)
@@ -44,10 +47,10 @@ To develop a **community-driven educational platform** initiated by the ATOS lea
 | Layer       | Technology             |
 |-------------|------------------------|
 | Frontend    | React.js, TailwindCSS  |
-| Backend     | Node.js (Express) or Django/FastAPI |
-| Database    | PostgreSQL or MongoDB  |
-| Auth        | Firebase Auth or OAuth2 |
-| Deployment  | Docker, GitHub Actions, Vercel/Render |
+| Backend     | Node.js (Express)      |
+| Database    | MongoDB                |
+| Auth        | Firebase Auth  (OAuth2 for admins) |
+| Deployment  | Docker, GitHub Actions, Vercel |
 
 ---
 
@@ -78,7 +81,7 @@ To develop a **community-driven educational platform** initiated by the ATOS lea
 
 ## Deliverables
 - MVP with learning, mentorship, and showcase modules
-- Documentation: `README.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`
+- Documentation: `README.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `USER_GUIDE.md`
 - Deployment setup and CI/CD configuration
 
 ---
