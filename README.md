@@ -27,6 +27,7 @@ Atos Digital Academy is designed to:
 - **Community Interaction:** Integrated forums, Q&A sections, and private messaging features.
 - **Project Showcase:** Allow users to submit projects, get peer reviews, and showcase their work.
 - **Gamification:** Earn badges, points, and view leaderboards to encourage active participation.
+- **Career outcomes:** ensure continuous monitoring of the learner’s progress — from registration, certificate achievement, to successful career placement.
 
 ## Tech Stack
 
@@ -56,7 +57,7 @@ npm install
 * For Backend (Express/Django/FastAPI):
 ```bash
 cd backend
-npm install  # or use pip/other package managers depending on the tech stack
+npm install 
 ```
 3. Configure Environment Variables:
 Create a `.env` file in both the frontend and backend directories as required. Refer to the provided `.env.example` for necessary settings.
@@ -69,7 +70,7 @@ npm start
 ```
 * Backend:
 ```bash
-npm run dev  # or appropriate command for your chosen framework
+npm run dev 
 ```
 5. Access the Application:
 Open your browser and navigate to `http://localhost:3000` (or the relevant port).
@@ -82,7 +83,7 @@ Open your browser and navigate to `http://localhost:3000` (or the relevant port)
 * Showcase Projects: Upload and review projects in the dedicated project showcase section.
 
 ## Contribution Guidelines
-We welcome community contributions! Please review our  [Contributing.md](CONTRIBUTING.md)for detailed information on how to get involved, submit pull requests, and report issues.
+We welcome community contributions! Please review our  [CONTRIBUTING.md](CONTRIBUTING.md)for detailed information on how to get involved, submit pull requests, and report issues.
 
 ## Code of Conduct
 We are committed to fostering an open and welcoming environment. Please see our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for our expectations regarding participant behavior.
@@ -91,11 +92,11 @@ We are committed to fostering an open and welcoming environment. Please see our 
 This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
 
 ## Contact & Support
-Project Owner: [**YAO Kossia Bénédicte**]
+Project Owner: [**YAO Kossia Bénédicte (Cypher1305)**]
 
 * GitHub Issues: Use the `Issues page` to report bugs or request new features.
 
 * Community Forums: Join our forums for `discussions`, questions, and support (link coming soon).
 
 ---
-**HAPPY CODING**
+**HAPPY CODING !**
