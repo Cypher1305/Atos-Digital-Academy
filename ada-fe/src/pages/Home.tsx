@@ -1,9 +1,11 @@
 import { Header } from "../partials/Header";
+import { Footer } from "../partials/Footer";
 import { Button } from "../components/Button";
 import { Card } from "../components/Card";
 
 export const Home = () => {
   return (
+    <>
     <div className="text min-h-screen flex flex-col justify-center items-center p-8 mx-auto">
       <Header/>
 
@@ -43,5 +45,8 @@ export const Home = () => {
         ]}
       />
     </div>
+
+    <Footer/>
+</>
   );
 };
