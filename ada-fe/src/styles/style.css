@@ -1,5 +1,16 @@
-.logo{
-    width: auto;
-    height: 40px;
+.bouton{
+    background: #128FF7;
+    background: -webkit-linear-gradient(90deg, rgba(18, 143, 247, 1) 0%, rgba(160, 102, 250, 1) 19%, rgba(250, 7, 89, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(18, 143, 247, 1) 0%, rgba(160, 102, 250, 1) 19%, rgba(250, 7, 89, 1) 100%);
+    background: linear-gradient(90deg, rgba(18, 143, 247, 1) 0%, rgba(160, 102, 250, 1) 19%, rgba(250, 7, 89, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#128FF7", endColorstr="#FA0759", GradientType=1);
+    color: #FFF;
+    font-weight: bold;
+}
+
+.bouton:hover{
+    background: #FFF;
+    color: black;
+    font-weight: bold;
 
 }
