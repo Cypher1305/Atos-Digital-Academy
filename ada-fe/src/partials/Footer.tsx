@@ -3,7 +3,7 @@ export const Footer = () => {
 
   return (
     <>
-    <footer className="fixed bottom-0 left-0 w-full flex flex-col text-center bottom-0">
+    <footer className="fixed bg-[#101010] bottom-0 left-0 w-full flex flex-col text-center bottom-0">
       <p className="text-sm text-color">
         © {year} Atos Digital Academy - Tous droits réservés
       </p>

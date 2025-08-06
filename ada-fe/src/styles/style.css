@@ -6,11 +6,12 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#128FF7", endColorstr="#FA0759", GradientType=1);
     color: #FFF;
     font-weight: bold;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
 }
 
 .bouton:hover{
-    background: #FFF;
-    color: black;
-    font-weight: bold;
+    transform: scale(1.05); /* hover:scale-105 */
+    background: linear-gradient(to right, #a855f7, #3b82f6);
 
 }
+

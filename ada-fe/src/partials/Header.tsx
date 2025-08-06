@@ -7,21 +7,22 @@ import user from './../assets/user.png';
 export const Header = () => {
   return (
     <>
+    <div className='fixed flex z-50 top-0 bg-[#101010] w-full'>
       {/* Topbar */}
-      <div className="flex items-center fixed top-0 w-full h-auto p-1 border-b border-gray-600">
-        <img src="/logo.png" alt="ADA logo" className="logo left-0" />
+      <div className="flex items-center absolute top-0 w-full h-auto p-1 border-b border-gray-600 bg-[#101010]">
+        <img src="/logo.png" alt="ADA logo" className="logo" />
         <a className="ml-auto mr-3">⚙️</a>
       </div>
 
       {/* Sidebar */}
-      <aside className="icon fixed top-auto right-0 w-14 flex flex-col items-center justify-center space-y-6 border-l border-gray-600 h-full">
-        <a href="#"><img src={coursImg} alt="online" /></a>
-        <a href="#"><img src={top} alt="top" /></a>
-        <a href="#"><img src={ideas} alt="ideas" /></a>
-        <a href="#"><img src={chat} alt="chat" /></a>
-        <a href="#"><img src={user} alt="online" /></a>
+      <aside className="fixed top-12 right-0 w-14 flex flex-col items-center justify-center space-y-6 border-l border-gray-600 h-[calc(100%-3.5rem)] bg-[#101010] icon">
+        <a href="#"><img src={coursImg} alt="Courses" /></a>
+        <a href="#"><img src={top} alt="Top" /></a>
+        <a href="#"><img src={ideas} alt="Ideas" /></a>
+        <a href="#"><img src={chat} alt="Chat" /></a>
+        <a href="#"><img src={user} alt="User" /></a>
       </aside>
-
+    </div>
     </>
   );
 };

@@ -1,12 +1,13 @@
 import { Header } from "../partials/Header";
 import { Footer } from "../partials/Footer";
 import { Button } from "../components/Button";
-import { Card } from "../components/Card";
+import { ThanksCard } from "../components/ThanksCard";
+
 
 export const Home = () => {
   return (
     <>
-    <div className="text min-h-screen flex flex-col justify-center items-center p-8 mx-auto gap-5">
+    <div className="text min-h-screen flex flex-col justify-center items-center p-4 mx-auto sm:p-8 gap-5">
       <Header/>
 
       <h1 className="title title-color justify-center ">Atos Digital Academy</h1>
@@ -17,33 +18,7 @@ export const Home = () => {
         <Button label="Apply now !" onClick={() => alert("Apply clicked")} />
       </div>
 
-      <Card
-        title="Thanks to :"
-        items={[
-          "Apple",
-          "pie",
-          "ice",
-          "cream",
-          "sugar",
-          "plum",
-          "brownie",
-          "liquorice",
-          "chocolate",
-          "cake",
-          "oat",
-          "cake",
-          "cake",
-          "apple",
-          "pie",
-          "Cookie",
-          "topping",
-          "topping",
-          "jelly",
-          "chocolate",
-          "tiramisu",
-          "biscuit",
-        ]}
-      />
+      <ThanksCard/>
       <Footer/>
     </div>
 </>
