@@ -3,11 +3,11 @@ export const Footer = () => {
 
   return (
     <>
-    <footer className="flex flex-col text-center">
+    <footer className="fixed bottom-0 left-0 w-full flex flex-col text-center bottom-0">
       <p className="text-sm text-color">
-        © {year} - Tous droits réservés
+        © {year} Atos Digital Academy - Tous droits réservés
       </p>
-      <a href="#" className="text-sm text-color">Top Contributors</a>
+      <a href="#" className="text-sm text-color">Contributors.top</a>
     </footer>
     </>
   );

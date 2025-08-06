@@ -6,7 +6,7 @@ import { Card } from "../components/Card";
 export const Home = () => {
   return (
     <>
-    <div className="text min-h-screen flex flex-col justify-center items-center p-8 mx-auto">
+    <div className="text min-h-screen flex flex-col justify-center items-center p-8 mx-auto gap-5">
       <Header/>
 
       <h1 className="title title-color justify-center ">Atos Digital Academy</h1>
@@ -44,9 +44,8 @@ export const Home = () => {
           "biscuit",
         ]}
       />
+      <Footer/>
     </div>
-
-    <Footer/>
 </>
   );
 };
