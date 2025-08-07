@@ -1,15 +1,26 @@
- interface CardProps {
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+interface CardProps {
   title: string;
-  items: string[];
+  description: string;
+  slug: string; 
 }
 
-export const Card: React.FC<CardProps> = ({ title, items }) => {
+export const Card: React.FC<CardProps> = ({ title, description, slug }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/courses/${slug}`);
+  };
+
   return (
-  <div className="border border-gray-600 rounded-lg p-4 mt-8 max-w-lg mx-auto">
-      <p className="text-center title-color mb-2">{title}</p>
-      <p className="text-center text-sm text-color">
-        {items.join(" - ")}
-      </p>
+    <div
+      onClick={handleClick}
+      className="cursor-pointer bg-[#1e1e2f] text-white rounded-xl p-5 shadow-md border border-gray-700 transition-transform transform hover:scale-105 hover:shadow-lg duration-300"
+    >
+      <h3 className="text-lg font-semibold mb-2 text-indigo-400">{title}</h3>
+      <p className="text-sm text-gray-300">{description}</p>
     </div>
   );
 };

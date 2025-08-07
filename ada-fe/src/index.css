@@ -57,16 +57,27 @@ h1 {
   margin-bottom: 15px;
 }
 
-.title-color{
-  color: darkgray;
-}
-.text-color{
-  color: rgb(126, 125, 125);
-}
 
 .paragraph{
   width: 98%;
   margin-right: 40px;
+}
+
+.bouton{
+    background: #128FF7;
+    background: -webkit-linear-gradient(90deg, rgba(18, 143, 247, 1) 0%, rgba(160, 102, 250, 1) 19%, rgba(250, 7, 89, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(18, 143, 247, 1) 0%, rgba(160, 102, 250, 1) 19%, rgba(250, 7, 89, 1) 100%);
+    background: linear-gradient(90deg, rgba(18, 143, 247, 1) 0%, rgba(160, 102, 250, 1) 19%, rgba(250, 7, 89, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#128FF7", endColorstr="#FA0759", GradientType=1);
+    color: #FFF;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.bouton:hover{
+    transform: scale(1.05); /* hover:scale-105 */
+    background: linear-gradient(to right, #a855f7, #3b82f6);
+
 }
 
 button {
@@ -88,7 +99,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+@media (min-width: 768px) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -96,7 +107,9 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .form-container{
+    width: 90%;
+    font-size: 12px;
   }
 }
