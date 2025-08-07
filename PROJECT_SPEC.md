@@ -46,8 +46,8 @@ To develop a **community-driven educational platform** initiated by the ATOS lea
 
 | Layer       | Technology             |
 |-------------|------------------------|
-| Frontend    | React.js, TailwindCSS  |
-| Backend     | Node.js (Express)      |
+| Frontend    | Vite, React, ts, TailwindCSS  |
+| Backend     | Node (Express)      |
 | Database    | MongoDB                |
 | Auth        | Firebase Auth  (OAuth2 for admins) |
 | Deployment  | Docker, GitHub Actions, Vercel |
